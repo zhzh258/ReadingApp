@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "http://127.0.0.1:4000/users"
+const url = "http://localhost:4000/users"
 const config = {
     headers: {
         'Content-Type': 'application/x-www-form-urlencoded'
