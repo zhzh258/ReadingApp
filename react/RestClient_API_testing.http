@@ -1,0 +1,55 @@
+GET http://127.0.0.1:4000/books/zzh http/1.1
+Content-Type: application/json
+
+{
+
+}
+
+###
+Post http://127.0.0.1:4000/books http/1.1
+Content-Type: application/json
+
+{
+    "username": "zzh",
+    "newTitle": "Statistics"
+}
+
+###
+Put http://127.0.0.1:4000/books/64cb49c5fd4c3c31437e4a67 http/1.1
+Content-Type: application/json
+
+{
+    "newTitle": "C# Primer"
+}
+
+###
+Delete http://127.0.0.1:4000/books http/1.1
+Content-Type: application/json
+
+{
+    "bookID": "64cac1e1ae3debfb09da1a00"
+}
+
+
+
+
+
+
+
+###
+Post http://127.0.0.1:4000/users/login http/1.1
+Content-Type: application/json
+
+{
+    "username": "zzh",
+    "password": "123456"
+}
+
+###
+Put http://127.0.0.1:4000/users/signup
+Content-Type: application/json
+
+{
+    "username": "hahaha",
+    "password": "666666"
+}
