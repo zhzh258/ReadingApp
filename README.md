@@ -1,11 +1,19 @@
+# How to run
+```bash
+docker-compose up --build
+```
+- The frontend is running on :80
+- The backend is running on :3001
+
+
 # Database Schema
+
 
 This document outlines the database schema.
 
 ## Collections
 
 ### User
-
 Stores information about the users, including their login credentials and lists.
 
 ```json
